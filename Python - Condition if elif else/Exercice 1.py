@@ -1,3 +1,5 @@
+# Exercice 1: Triangle équilatéral - isocèle - condition IF ELSE ELIF AND OR
+
 if __name__ == '__main__':
     while True:
         try:
