@@ -1,2 +1,2 @@
-# Exercice_Algo_1
+http://www.jaicompris.com/python/python-demarrer.php
 Exercices D'Ivan
