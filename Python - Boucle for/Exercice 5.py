@@ -1,9 +1,23 @@
-while True:
-    try:
-        table = int(input("Table: "))
-        break
-    except ValueError:
-        print("Vous devez entrer un nombre")
+from random import randint
 
-for i in range(1, 11):
-    print(f"{table} * {i} = {table * i}")
+point = 0
+for _ in range(11):
+    a = randint(1, 10)
+    b = randint(1, 10)
+    print(f"{a} * {b} ?")
+    while True:
+        try:
+            c = int(input(">> "))
+            break
+        except ValueError:
+            print("Vous devez rentrer un nombre")
+
+    if c == a * b:
+        print("+1 point")
+        point += 1
+    else:
+        print("-1 point")
+        point -= 1
+
+
+print(f"Total point: {point}")
